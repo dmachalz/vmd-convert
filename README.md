@@ -39,18 +39,18 @@ This small wrapper for VMD is written in BASH and TCL. The BASH script vmd-conve
 ### This script does
 
 #### 1. Initialising
-Checks for correct input and presence of the TCL file (vmd-convert.tcl)
-Loading vmd module
-Creates a output directory if provided via '-c' or '-o' option
+Checks for correct input and presence of the TCL file (vmd-convert.tcl)  
+Loading vmd module  
+Creates a output directory if provided via '-c' or '-o' option  
 
 #### 2. VMD: loading files
-Starts VMD with the given options in command line mode.
-Loads the structure and trajectory file
+Starts VMD with the given options in command line mode.  
+Loads the structure and trajectory file  
 
 #### 3. VMD: Working on trajectory
-PBC (Periodic Boundary Conditions) Wrapping is executed.
-Trajectory alignment conducted according to provided atom alignment selection (-a; default='protein')
+PBC (Periodic Boundary Conditions) Wrapping is executed.  
+Trajectory alignment conducted according to provided atom alignment selection (-a; default='protein')  
 
 #### 4. Write out files
-The structure and or trajectory file are written out in the specified format.
-Only atoms in atom selection for write out (-w; default='all') are considered.
+The structure and or trajectory file are written out in the specified format.  
+Only atoms in atom selection for write out (-w; default='all') are considered.  
